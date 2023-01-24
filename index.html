@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="nl">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="robots" content="noindex">
+  <link rel="shortcut icon" href="assets/images/favicon.ico" type="image/x-icon">
+  <title>Bakkerij Baert</title>
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
+  <!--carousel werkt niet zonder deze links-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/screen.css">
+  <script src="js/openingsuren.js"></script>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-md c-nav">
+    <div class="container">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <div class="container">
+          <div class="row">
+            <ul class="navbar-nav">
+              <li class="nav-item align-self-center">
+                <a class="navbar-brand nav-link" href="index.html"><img src="assets/images/logo.png" height="60" alt="logo">
+                </a>
+              </li>
+              <li class="nav-item align-self-center">
+                <a class="nav-link nav-link__active" aria-current="page" href="index.html">Home</a>
+              </li>
+              <li class="nav-item align-self-center">
+                <a class="nav-link" href="assortiment.html">Assortiment</a>
+              </li>
+              <li class="nav-item align-self-center">
+                <a class="nav-link" href="team.html">Team</a>
+              </li>
+              <li class="nav-item align-self-center">
+                <a class="nav-link" href="contact.html">Contact</a>
+              </li>
+              <li class="nav-item align-self-center">
+                <a class="nav-link" href="patisserie.html">Patisserie</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+
+  <header class="c-carousel">
+    <div id="carouselExampleIndicators" class="carousel slide carousel-fade" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-target="#carouselExampleIndicators" data-slide-to="0"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="containe-fluid">
+          <div class="row">
+            <div class="carousel-item active col-8">
+              <img src="assets/carousel/carousel1.png" alt="First slide" class="c-carousel__image">
+            </div>
+            <div class="carousel-item col-8">
+              <img src="assets/carousel/carousel2.png" alt="Second slide" class="c-carousel__image">
+            </div>
+            <div class="carousel-item col-8">
+              <img src="assets/carousel/carousel3.png" alt="Third slide" class="c-carousel__image">
+            </div>
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        </a>
+      </div>
+    </div>
+  </header>
+
+
+  <section class="c-assortiment">
+    <div class="container">
+      <div class="row text-center">
+        <div class="col-12">
+          <h2 class="c-assortiment__titel text-center titel-h2">Assortiment</h2>
+        </div>
+        <div class="c-assortiment__imagewrap col-4">
+          <img src="assets/images/broodbanner.png" alt="" class="c-assortiment__image">
+        </div>
+        <div class="c-assortiment__imagewrap col-4">
+          <img src="assets/images/taart-banner.png" alt="" class="c-assortiment__image--taart">
+        </div>
+        <div class="c-assortiment__imagewrap col-4">
+          <img src="assets/images/ontbijtkoeken-banner.png" alt="" class=" c-assortiment__image--ontbijtkoeken">
+        </div>
+        <div class="c-assortiment__buttonwrap">
+          <a href="assortiment.html" class="link">
+            <div class="c-assortiment__button button">Bekijk het volledige
+              assortiment</div>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <section class="c-opening">
+    <div class="container">
+      <div class="row">
+        <h2 class="c-opening__titel text-center titel-h2__white">Openingsuren &amp; locatie</h2>
+        <div class="col-6">
+          <ul class="js-openingsuren__extra c-opening__uren">
+          </ul>
+        </div>
+        <div class="col-6">
+          <p class="c-opening__locatie">Bakkerij en Zelfbediening Baert <br>
+            Vakebuurstraat 184A <br>
+            9990 Maldegem <br>
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="c-team">
+    <div class="container">
+      <div class="row">
+        <div class="c-team__info col-5 align-self-center">
+          <h3 class="c-team__title titel-h2">Het team</h3>
+          <p class="c-team__text">In 1973 in de Vakebuurtstraat te Maldegem openden de heer en mevrouw Baert hun nieuwe
+            zelfsbedieningszaak.
+            Nu 50 jaar later zit de zaak nog steeds in de familie, Dany en zijn vrouw Tania staan iedere dag klaar om
+            met
+            hun geweldige team de klanten te ontvangen in hun winkel.</p>
+          <a href="team.html" class="link">
+            <div class="c-team__button button__section">Ontdek het team</div>
+          </a>
+        </div>
+        <div class="col-7">
+          <img src="assets/teamfotos/team.svg" class="c-team__image" alt="">
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="c-promo">
+    <div class="container-fluid c-promo__background">
+      <div class="row">
+        <div class="col-10 offset-1 c-promo__badge">
+          <span class="badge c-promo__text">Promo</span>
+        </div>
+        <div class="col-5 offset-1">
+          <h2 class="c-promo__text">Iedere zondag <br>
+            op broden 2+1</h2>
+        </div>
+        <div class="col-6 c-promo__image--wrapper">
+          <img src="assets/illustraties/brood-promo.png" alt="" class="c-promo__image">
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="c-patisserie">
+    <div class="container">
+      <div class="row">
+        <div class="col-5 align-self-center">
+          <h2 class="c-patisserie__titel titel-h2 titel-h2">Patisserie</h2>
+          <p>In zijn gebakjes en taartjes toont Dany zijn zin voor creativiteit en schoonheid. Eenmaal de winkel is
+            voorzien van dagvers brood breekt voor hem en zijn medewerkers het moment aan waarop het banketgebak wordt
+            voorbereid om daarna door Dany te worden afgewerkt.
+            Op een eigentijdse manier weet hij kleur en smaak in een subtiel evenwicht te brengen met elkaar. Hiervoor
+            is Bakkerij Baert tot ver in het omliggende gekend. Vanuit Nederland komen kenners naar Maldegem afgezakt om
+            er taartjes voor het weekend bĳ Dany in te kopen.</p>
+          <a href="patisserie.html" class="link">
+            <div class="c-patisserie__button button__section">Ontdek onze
+              patisserie</div>
+          </a>
+        </div>
+        <div class="col-7 align-self-center">
+          <img src="assets/images/patisserie.svg" alt="" class="c-patisserie__image">
+        </div>
+      </div>
+    </div>
+  </section>
+  <footer class="c-footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-5 offset-1 c-footer__contact">
+          <h3 class="footer-title">Contactgegevens</h3>
+        </div>
+        <div class="col-4 offset-1">
+          <h3 class="footer-title">Openingsuren</h3>
+        </div>
+        <div class="col-5 offset-1">
+          <p>Bakkerij Baert | Maldegem <br>
+            Vakebuurstraat 184A 9990 Maldegem <br>
+            Tel: 050 71 15 55
+            E-mail: baertdanny@skynet.be <br>
+            BTW: B.T.W.-BE-0416.736.843 </p>
+        </div>
+        <div class="col-4 offset-1" id="openingstijden">
+          <ul class="js-openingsuren">
+          </ul>
+        </div>
+        <div class="c-footer__icons text-center">
+          <a href="https://www.facebook.com/bakkerijbaert/"><i class="bi bi-facebook"></i></a>
+        </div>
+        <div class="col-12 text-center">
+          <p>© 2023 Bakkerij Baert</p>
+        </div>
+        <div class="col-12 text-center">
+          <div class="c-footer__copy">
+            <p>Deze schoolopdracht werd gemaakt voor de opleiding <a href="https://www.howest.be/wdd">Web
+                Development &
+                Design</a> van <a href="https://www.howest.be">Howest</a></p>
+          </div>
+          <div class="col-12 text-center">
+            <a href="https://www.howest.be/nl"><img src="assets/images/logohowest.png" height="50" alt="">
+          </div></a>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
