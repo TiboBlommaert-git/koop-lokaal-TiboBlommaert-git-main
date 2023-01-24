@@ -250,6 +250,10 @@ ul {
   background-color: #A7385F;
 }
 
+.button__section:hover {
+  background-color: #A7385F;
+}
+
 .button__form:hover {
   background-color: #A7385F;
 }
